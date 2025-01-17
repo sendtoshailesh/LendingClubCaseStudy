@@ -60,14 +60,12 @@ The main objective of this project is to understand the driving factors behind l
 
 The insights generated from this analysis will help the company in better portfolio management and risk mitigation, which is crucial for improving business profitability.
 
+## Data Understanding
+- **Identifying Data Quality Issues**: 
+  - **Missing Values**: The dataset has some missing values, which were handled by using strategies like replacing with the median or mean, depending on the nature of the column (numerical or categorical).
+  - **Data Types**: Ensuring all columns are of the correct data type is essential for proper analysis. For instance, some columns that are strings (like `int_rate` and `revol_util`) were converted into numerical formats after removing non-numeric characters such as '%'.
+  - **Outliers**: Some columns showed a few extreme values which may influence model predictions. These were either capped or transformed to minimize their impact.
 
-## Acknowledgements
-- This project was inspired by the real-world problem of credit risk management in the banking industry.
-- The data used in this analysis is derived from a public dataset available on [Kaggle](https://www.kaggle.com/).
-- This project was based on the following tutorial: [EDA with Loan Default Data](https://www.example.com/tutorial).
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
 
 
 
@@ -209,3 +207,5 @@ Bivariate analysis examines relationships between two variables, uncovering patt
 ## Contact
 
 Created by \[@sendtoshailesh\] \- feel free to contact me for further details or collaboration\!
+
+
