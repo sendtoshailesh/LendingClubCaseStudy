@@ -23,6 +23,55 @@ A data-driven project analyzing Lending Club's loan dataset to uncover insights 
 - **Dataset Used:**  
   The Lending Club loan dataset includes 111 columns with information such as loan amount, interest rate, annual income, credit utilization, and repayment status. Key columns analyzed include `int_rate`, `annual_inc`, `loan_amnt`, `fico_range`, `loan_status`, and `revol_util`.
 
+# Loan Default Risk Prediction
+
+> This project aims to apply Exploratory Data Analysis (EDA) techniques to analyze loan applicants' data and identify patterns that predict the likelihood of loan default. The goal is to provide valuable insights to minimize the risk of financial loss for the company while lending.
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
+* [Business Understanding](#business-understanding)
+* [Business Objectives](#business-objectives)
+* [Contact](#contact)
+
+## General Information
+- **Background**: This project focuses on understanding the risks associated with lending by analyzing past loan applications, identifying patterns and trends to predict future loan defaults. The project applies EDA to identify key factors that influence the likelihood of default and helps businesses make informed decisions about loan approvals.
+- **Business Problem**: The company faces two risks when approving loans:
+  1. If a loan is not approved for a creditworthy applicant, the company loses a potential business opportunity.
+  2. If the loan is approved for an applicant who defaults, the company faces financial losses.
+- **Dataset**: The dataset includes information about past loan applicants, including features like income, credit history, loan amount, interest rates, and payment status (e.g., 'fully paid', 'current', 'charged-off'). The goal is to identify applicants who are likely to default (charged-off) on their loans.
+
+## Business Understanding
+In this case study, you work for a consumer finance company that lends loans to urban customers. The company makes loan decisions based on applicants' profiles, and the decision can lead to one of two outcomes:
+1. **Loan Accepted**: 
+   - **Fully Paid**: The applicant has fully repaid the loan.
+   - **Current**: The applicant is in the process of repaying the loan.
+   - **Charged-off**: The applicant has defaulted on the loan, causing a loss to the company.
+2. **Loan Rejected**: The loan is denied due to various reasons like not meeting the requirements.
+
+The company aims to predict whether an applicant is likely to default, which can help mitigate financial losses and improve decision-making processes. By understanding consumer and loan attributes, we can identify patterns that signify the risk of default and take necessary actions such as denying loans, adjusting loan amounts, or offering higher interest rates to risky applicants.
+
+## Business Objectives
+The main objective of this project is to understand the driving factors behind loan defaults. By identifying risky loan applicants, the company can:
+- **Reduce Credit Loss**: Credit loss occurs when borrowers default. Identifying these risky applicants and minimizing their loans helps the company cut down on losses.
+- **Risk Analytics**: The company aims to assess the risk of lending to individual customers and understand the variables that are most likely to influence default.
+
+The insights generated from this analysis will help the company in better portfolio management and risk mitigation, which is crucial for improving business profitability.
+
+
+## Acknowledgements
+- This project was inspired by the real-world problem of credit risk management in the banking industry.
+- The data used in this analysis is derived from a public dataset available on [Kaggle](https://www.kaggle.com/).
+- This project was based on the following tutorial: [EDA with Loan Default Data](https://www.example.com/tutorial).
+
+## Contact
+Created by [@githubusername] - feel free to contact me!
+
+
+
+
 ## Analysis:
 
 ---
@@ -135,6 +184,10 @@ Bivariate analysis examines relationships between two variables, uncovering patt
 - **Conclusion 3:** Loans with longer terms (60 months) and higher interest rates (`int_rate`) show a higher default rate compared to shorter-term loans.  
 - **Conclusion 4:** Employment length (`emp_length`) and credit score range (`fico_range`) are strong indicators of borrower reliability.  
 - **Conclusion 5:** Debt-to-Income ratio (`dti`) is a critical factor in determining borrower risk.
+- **Key Factor 1**: Variables such as `income`, `debt-to-income ratio (DTI)`, and `credit utilization` significantly impact loan default rates.
+- **Key Factor 2**: Applicants with higher `interest rates` and `loan amounts` tend to have a higher likelihood of default.
+- **Key Factor 3**: Employment length and the applicant's home ownership status have a moderate effect on default behavior.
+- **Key Factor 4**: Applicants with a higher number of delinquencies (`delinq_2yrs`) and recent credit inquiries (`inq_last_6mths`) are more likely to default.
 
 ## Technologies Used
 
