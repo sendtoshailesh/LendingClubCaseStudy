@@ -187,6 +187,9 @@ Bivariate analysis examines relationships between two variables, uncovering patt
 - **Key Factor 3**: Employment length and the applicant's home ownership status have a moderate effect on default behavior.
 - **Key Factor 4**: Applicants with a higher number of delinquencies (`delinq_2yrs`) and recent credit inquiries (`inq_last_6mths`) are more likely to default.
 
+## Presentation and actionable items
+https://github.com/sendtoshailesh/LendingClubCaseStudy/blob/main/Lending%20Club%20case%20study%20Presentation%20and%20Recommendations.pdf
+
 ## Technologies Used
 
 - **Python 3.9**  
