@@ -23,11 +23,11 @@ A data-driven project analyzing Lending Club's loan dataset to uncover insights 
 - **Dataset Used:**  
   The Lending Club loan dataset includes 111 columns with information such as loan amount, interest rate, annual income, credit utilization, and repayment status. Key columns analyzed include `int_rate`, `annual_inc`, `loan_amnt`, `fico_range`, `loan_status`, and `revol_util`.
 
-# Loan Default Risk Prediction
+# Loan Default Risk Prediction 
 
 > This project aims to apply Exploratory Data Analysis (EDA) techniques to analyze loan applicants' data and identify patterns that predict the likelihood of loan default. The goal is to provide valuable insights to minimize the risk of financial loss for the company while lending.
 
-## Table of Contents
+## Table of Contents follows
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
